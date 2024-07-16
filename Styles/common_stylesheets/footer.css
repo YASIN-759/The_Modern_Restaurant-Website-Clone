@@ -1,0 +1,423 @@
+
+@media screen and (max-width: 991px) {
+
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.footer > .logo_links {
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.logo_links > #hashtag  {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hashtag > a {
+    font-size: var(--size-2xl);
+    text-decoration: underline;
+    transition: all ease 0.5s;
+    white-space: 3px;
+    letter-spacing: 1px;
+}
+
+#hashtag > a:hover {
+    color: var(--color-secondary);
+}
+
+.logo_links > #logo {
+    margin-bottom: 2rem;
+}
+
+.footer > .info_div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info_div > #contact {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#contact > .tag {
+    width: 20%;
+}
+
+#contact > .address {
+    font-size: var(--size-lg);
+    margin-bottom: 0.2rem;
+}
+
+#contact > .mail {
+    color: var(--color-secondary);
+    font-size: var(--size-lg);
+    margin-bottom: 0.2rem;
+}
+
+#contact > .cell_number {
+    color: var(--color-secondary);
+    font-size: var(--size-lg);
+    margin-bottom: 0.2rem;
+}
+
+.get_in_touch {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_in_touch > p {
+    font-size: var(--size-lg);
+    margin-bottom: 1rem;
+}
+
+.get_in_touch > #mail_bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mail_bar > input {
+    height: 13vh;
+    width: 75%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.467);
+    padding-left: 2rem;
+    font-size: var(--size-2xl);
+    color: white;
+}
+
+#mail_bar > button {
+    width: 25%;
+    height: 13vh;
+    background-color: white;
+    transition: all ease 0.5s;
+}
+
+#mail_bar > button:hover {
+    background-color: var(--color-secondary);
+}
+
+#mail_bar > button > a {
+    color: var(--color-primary);
+    font-size: var(--size-xl);
+}
+
+.info_div > .timing_info {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.timing_info > .tag {
+    margin-bottom: 1rem;
+}
+
+.timing_info > p {
+    font-size: var(--size-lg);
+    margin-bottom: 0.2rem;
+}
+
+.timing_info > p > span {
+    color: var(--color-secondary);
+    margin-right: 0.2rem;
+}
+
+.sponsors {
+    padding-top: 2rem;
+    border-top: 0.5px solid var(--color-light-secondary);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors > h1 > span {
+    color: var(--color-secondary);
+}
+
+}
+@media screen and (max-width: 767px) {
+
+    .get_in_touch > #mail_bar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #mail_bar > input {
+        width: 80%;
+    }
+    
+    #mail_bar > button {
+        width: 80%;
+    }
+    
+    #mail_bar > button > a {
+        color: var(--color-primary);
+        font-size: var(--size-xl);
+    }
+    
+
+}
+@media screen and (max-width: 555px) {
+
+    .get_in_touch > #mail_bar {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #mail_bar > input {
+        height: 10vh;
+        font-size: var(--size-xl);
+    }
+    
+    #mail_bar > button {
+        height: 10vh;
+    }
+    
+    #mail_bar > button > a {
+        font-size: var(--size-lg);
+    }
+
+}
+@media screen and (max-width: 455px) {}
+@media screen and (min-width: 992px) {
+
+    .footer {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background-color: var(--color-primary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer > .logo_links {
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+    }
+    
+    .logo_links > #hashtag  {
+        width: 30%;
+        height: auto;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    #hashtag > a {
+        font-size: var(--size-2xl);
+        text-decoration: underline;
+        transition: all ease 0.5s;
+        white-space: 3px;
+        letter-spacing: 1px;
+    }
+    
+    #hashtag > a:hover {
+        color: var(--color-secondary);
+    }
+    
+    .logo_links > #logo {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+    
+    .logo_links > #sociallink {
+        width: 30%;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .footer > .info_div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .info_div > #contact {
+        width: fit-content;
+        height: auto;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    #contact > .tag {
+        width: fit-content;
+    }
+    
+    #contact > .address {
+        font-size: var(--size-md);
+        margin-bottom: 0.2rem;
+    }
+    
+    #contact > .mail {
+        color: var(--color-secondary);
+        font-size: var(--size-md);
+        margin-bottom: 0.2rem;
+        display: flex;
+        justify-content: left;
+        width: 100%;
+    }
+    
+    #contact > .cell_number {
+        color: var(--color-secondary);
+        font-size: var(--size-lg);
+        margin-bottom: 0.2rem;
+        width: 100%;
+        justify-content: left;
+    }
+    
+    .get_in_touch {
+        width: 55%;
+        height: auto;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .get_in_touch > p {
+        font-size: var(--size-lg);
+        margin-bottom: 1rem;
+    }
+    
+    .get_in_touch > #mail_bar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #mail_bar > input {
+        height: 10vh;
+        width: 70%;
+        background-color: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.467);
+        padding-left: 2rem;
+        font-size: var(--size-2xl);
+        color: white;
+    }
+    
+    #mail_bar > button {
+        width: 30%;
+        height: 10vh;
+        background-color: white;
+        transition: all ease 0.5s;
+    }
+    
+    #mail_bar > button:hover {
+        background-color: var(--color-secondary);
+    }
+    
+    #mail_bar > button > a {
+        color: var(--color-primary);
+        font-size: var(--size-xl);
+    }
+    
+    .info_div > .timing_info {
+        width: fit-content;
+        height: auto;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    
+    .timing_info > .tag {
+        width: fit-content;
+        margin-bottom: 1rem;
+    }
+    
+    .timing_info > p {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        font-size: var(--size-lg);
+        margin-bottom: 0.2rem;
+    }
+    
+    .timing_info > p > span {
+        color: var(--color-secondary);
+        margin-right: 0.2rem;
+    }
+
+    .sponsors {
+        padding-top: 2rem;
+        border-top: 0.5px solid var(--color-light-secondary);
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sponsors > h1 > span {
+        color: var(--color-secondary);
+    }
+}
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1279px) {}

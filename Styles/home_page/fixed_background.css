@@ -1,0 +1,30 @@
+@media screen and (max-width: 991px) {
+  .fixed_background {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/Assets/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 555px) {
+}
+@media screen and (max-width: 455px) {
+}
+@media screen and (min-width: 992px) {
+  .fixed_background {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/Assets/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1279px) {
+}

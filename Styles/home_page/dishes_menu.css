@@ -1,0 +1,338 @@
+@media screen and (max-width: 991px) {
+  .dishes_menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dishes_menu_left_div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dishes_menu_left_div > .tag {
+    color: var(--color-primary);
+  }
+
+  .dishes_menu_left_div > h1 {
+    color: var(--color-primary);
+    font-size: var(--size-5xl);
+    margin-bottom: 1rem;
+  }
+
+  .dishes_menu_left_div > p:nth-child(3) {
+    color: var(--color-grey);
+    margin-bottom: 2rem;
+    word-spacing: 2.5px;
+  }
+
+  .dishes_menu_left_div > #dishes_menu_img {
+    width: fit-content;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .dishes_menu_left_div > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--color-secondary);
+    transition: all ease 0.5s;
+  }
+
+  .dishes_menu_left_div > button:hover {
+    background-color: var(--color-secondary);
+    border: 3px solid var(--color-secondary);
+  }
+
+  .dishes_menu_left_div > button > a {
+    color: var(--color-secondary);
+    font-size: var(--size-xl);
+    transition: all ease 0.5s;
+  }
+
+  .dishes_menu_left_div > button:hover > a {
+    color: var(--color-primary);
+  }
+
+  .dishes_menu_right_div {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .dishes_menu_right_div > .starters {
+    width: 100%;
+    height: auto;
+  }
+
+  .dishes > h1 {
+    font-size: var(--size-5xl);
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+  }
+
+  .dishes > .starter,
+  .dishes > .main_dish,
+  .dishes > .desert_dish {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .starter > #starter_dish_icon,
+  .main_dish > #main_dish_icon,
+  .desert_dish > #desert_dish_icon {
+    width: 15vh;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  #starter_dish_icon > img,
+  #main_dish_icon > img,
+  #desert_dish_icon > img {
+    border-radius: 60px;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+  }
+
+  .starter > #starter_dish_detail,
+  .main_dish > #main_dish_detail,
+  .desert_dish > #desert_dish_detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #starter_dish_detail > #dish_detail_left_div,
+  #main_dish_detail > #dish_detail_left_div,
+  #desert_dish_detail > #dish_detail_left_div {
+    width: 60%;
+    height: 100%;
+  }
+
+  #starter_dish_detail > #dish_detail_right_div,
+  #main_dish_detail > #dish_detail_right_div,
+  #desert_dish_detail > #dish_detail_right_div {
+    width: auto;
+    color: var(--color-grey);
+  }
+
+  #dish_detail_left_div > h1 {
+    font-size: var(--size-3xl);
+    color: var(--color-primary);
+  }
+
+  #dish_detail_left_div > p {
+    display: flex;
+    color: var(--color-grey);
+  }
+}
+@media screen and (max-width: 767px) {
+  #starter_dish_detail > #dish_detail_left_div,
+  #main_dish_detail > #dish_detail_left_div,
+  #desert_dish_detail > #dish_detail_left_div {
+    width: auto;
+    height: 100%;
+    margin-right: 1rem;
+  }
+}
+@media screen and (max-width: 555px) {
+}
+@media screen and (max-width: 455px) {
+  .dishes > .starter,
+  .dishes > .main_dish,
+  .dishes > .desert_dish {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+  }
+
+  .starter > #starter_dish_icon,
+  .main_dish > #main_dish_icon,
+  .desert_dish > #desert_dish_icon {
+    width: 13vh;
+    height: 13vh;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0rem;
+  }
+
+  #starter_dish_detail > #dish_detail_left_div,
+  #main_dish_detail > #dish_detail_left_div,
+  #desert_dish_detail > #dish_detail_left_div {
+    width: 75%;
+    height: 100%;
+  }
+
+  #starter_dish_detail > #dish_detail_right_div,
+  #main_dish_detail > #dish_detail_right_div,
+  #desert_dish_detail > #dish_detail_right_div {
+    width: 15%;
+    color: var(--color-grey);
+  }
+}
+@media screen and (min-width: 992px) {
+  .dishes_menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .dishes_menu_left_div {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dishes_menu_left_div > .tag {
+    color: var(--color-primary);
+  }
+
+  .dishes_menu_left_div > h1 {
+    color: var(--color-primary);
+    font-size: var(--size-5xl);
+    margin-bottom: 1rem;
+  }
+
+  .dishes_menu_left_div > p:nth-child(3) {
+    color: var(--color-grey);
+    margin-bottom: 2rem;
+    word-spacing: 2.5px;
+  }
+
+  .dishes_menu_left_div > #dishes_menu_img {
+    width: fit-content;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .dishes_menu_left_div > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--color-secondary);
+    transition: all ease 0.5s;
+    width: 15rem;
+    height: 4.5rem;
+  }
+
+  .dishes_menu_left_div > button:hover {
+    background-color: var(--color-secondary);
+    border: 3px solid var(--color-secondary);
+  }
+
+  .dishes_menu_left_div > button > a {
+    color: var(--color-secondary);
+    font-size: var(--size-xl);
+    transition: all ease 0.5s;
+  }
+
+  .dishes_menu_left_div > button:hover > a {
+    color: var(--color-primary);
+  }
+
+  .dishes_menu_right_div {
+    margin-top: 3.5rem;
+    width: 55%;
+    height: auto;
+  }
+
+  .dishes_menu_right_div > .starters {
+    width: 100%;
+    height: auto;
+  }
+
+  .dishes > h1 {
+    font-size: var(--size-5xl);
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+  }
+
+  .dishes > .starter,
+  .dishes > .main_dish,
+  .dishes > .desert_dish {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .starter > #starter_dish_icon,
+  .main_dish > #main_dish_icon,
+  .desert_dish > #desert_dish_icon {
+    width: 15vh;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+
+  #starter_dish_icon > img,
+  #main_dish_icon > img,
+  #desert_dish_icon > img {
+    border-radius: 60px;
+    width: 100%;
+    height: 100%;
+    transform: scale(1);
+  }
+
+  .starter > #starter_dish_detail,
+  .main_dish > #main_dish_detail,
+  .desert_dish > #desert_dish_detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #starter_dish_detail > #dish_detail_left_div,
+  #main_dish_detail > #dish_detail_left_div,
+  #desert_dish_detail > #dish_detail_left_div {
+    width: 60%;
+    height: 100%;
+  }
+
+  #starter_dish_detail > #dish_detail_right_div,
+  #main_dish_detail > #dish_detail_right_div,
+  #desert_dish_detail > #dish_detail_right_div {
+    width: auto;
+    color: var(--color-grey);
+  }
+
+  #dish_detail_left_div > h1 {
+    font-size: var(--size-3xl);
+    color: var(--color-primary);
+  }
+
+  #dish_detail_left_div > p {
+    display: flex;
+    color: var(--color-grey);
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1279px) {
+}

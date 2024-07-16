@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 991px) {
+
+.restaurant_info {
+    background-color: var(--color-light-secondary);
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.restaurant_info > #address,
+.restaurant_info > #time,
+.restaurant_info > #mail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#address > #address_info,
+#time > #time_info,
+#mail > #mail_info {
+    color: var(--color-grey);
+    margin-left: 1rem;
+}
+
+
+
+
+}
+@media screen and (max-width: 767px) {}
+@media screen and (max-width: 555px) {}
+@media screen and (max-width: 455px) {
+    
+
+    .icon {
+        height: 11vh;
+        width: 11vh;
+    }
+    
+    #address > #address_info,
+    #time > #time_info,
+    #mail > #mail_info {
+        color: var(--color-grey);
+        margin-left: 1rem;
+        width: 45%;
+    }
+}
+@media screen and (min-width: 992px) {
+
+    .restaurant_info {
+        background-color: var(--color-light-secondary);
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .restaurant_info > #address,
+    .restaurant_info > #time,
+    .restaurant_info > #mail {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .icon {
+        height: 13vh;
+        width: 13vh;
+    }
+    
+    #address > #address_info,
+    #time > #time_info,
+    #mail > #mail_info {
+        color: var(--color-grey);
+        margin-left: 0.5rem;
+        width: 60%;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+
+    .icon {
+        height: 15vh;
+        width: 15vh;
+    }
+    
+    #address > #address_info,
+    #time > #time_info,
+    #mail > #mail_info {
+        color: var(--color-grey);
+        margin-left: 1rem;
+        width: auto;
+    }
+
+}
+@media screen and (min-width: 1279px) {}

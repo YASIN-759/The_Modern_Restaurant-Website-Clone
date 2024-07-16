@@ -1,0 +1,346 @@
+@media screen and (max-width: 991px) {
+  header {
+    height: auto;
+    width: 100%;
+    background-color: var(--color-primary);
+  }
+
+  /* INTRO */
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .intro > #call_btn {
+    margin-bottom: 1.5rem;
+    transition: all ease 0.5s;
+  }
+
+  .intro > #call_btn:hover {
+    background-color: var(--color-secondary);
+  }
+
+  #call_btn > button {
+    border: 3px solid var(--color-secondary);
+    height: 100%;
+    width: 100%;
+  }
+
+  #call_btn > button > a {
+    font-weight: 500;
+    font-size: var(--size-xl);
+    transition: all ease 0.5s;
+  }
+
+  #call_btn:hover > button > a {
+    color: var(--color-primary);
+  }
+
+  .intro > #logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .intro > #reservation_btn {
+    background-color: var(--color-secondary);
+    transition: all ease 0.5s;
+  }
+
+  .intro > #reservation_btn:hover {
+    background-color: var(--color-primary);
+  }
+
+  #reservation_btn > button {
+    border: 2.5px solid var(--color-secondary);
+    height: 100%;
+    width: 100%;
+  }
+
+  #reservation_btn > button > a {
+    color: var(--color-primary);
+    font-size: var(--size-xl);
+    font-weight: 500;
+    transition: all ease 0.5s;
+  }
+
+  .intro > #reservation_btn:hover > button > a {
+    color: var(--color-secondary);
+  }
+
+  /* NAVBAR */
+
+  .navbar {
+    background-color: var(--color-primary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+    width: 100%;
+    border-top: 0.1px solid var(--color-grey);
+    border-bottom: 0.1px solid var(--color-grey);
+  }
+
+  .navbar > #menu_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 11vh;
+    width: 11vh;
+    background-color: var(--color-light-secondary);
+  }
+
+  #menu_btn > i {
+    font-size: var(--size-2xl);
+    color: var(--color-primary);
+  }
+
+  .navlink {
+    transition: all ease 1s;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -300%;
+    background-color: var(--color-grey);
+  }
+
+  .navlink > ul > li,
+  .navlink > ul > li > button {
+    margin-bottom: 1rem;
+  }
+
+  .navlink > ul > li > a,
+  .navlink > ul > li > button {
+    color: white;
+    font-size: var(--size-xl);
+  }
+
+  #sub_menu_link {
+    height: 0rem;
+    width: 100%;
+    padding-left: 1.3rem;
+    display: none;
+  }
+
+  #sub_menu_link > li {
+    margin-bottom: 1rem;
+  }
+
+  #sub_menu_link > li > a {
+    font-size: var(--size-lg);
+  }
+
+  #sociallink {
+    width: auto;
+    height: 100%;
+  }
+
+  #sociallink > a > i {
+    font-size: var(--size-3xl);
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 555px) {
+}
+@media screen and (max-width: 455px) {
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    width: 45vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  header {
+    height: auto;
+    width: 100%;
+    background-color: var(--color-primary);
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100vh;
+    height: 13vh;
+  }
+
+  .intro > #call_btn {
+    margin-bottom: 0rem;
+    transition: all ease 0.5s;
+  }
+
+  .intro > #call_btn:hover {
+    background-color: var(--color-secondary);
+  }
+
+  .intro > #call_btn > button > a {
+    transition: all ease 0.5s;
+  }
+
+  .intro > #call_btn:hover > button > a {
+    color: var(--color-primary);
+  }
+
+  #call_btn > button {
+    border: 3px solid var(--color-secondary);
+    height: 100%;
+    width: 100%;
+  }
+
+  #call_btn > button > a {
+    font-weight: 500;
+    font-size: var(--size-xl);
+  }
+
+  .intro > #logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 0rem;
+  }
+
+  .intro > #reservation_btn {
+    background-color: var(--color-secondary);
+    transition: all ease 0.5s;
+  }
+
+  .intro > #reservation_btn:hover {
+    background-color: var(--color-primary);
+  }
+
+  #reservation_btn > button {
+    border: 2.5px solid var(--color-secondary);
+    height: 100%;
+    width: 100%;
+  }
+
+  #reservation_btn > button > a {
+    color: var(--color-primary);
+    font-size: var(--size-xl);
+    font-weight: 500;
+    transition: all ease 0.5s;
+  }
+
+  .intro > #reservation_btn:hover > button > a {
+    color: var(--color-secondary);
+  }
+
+  /* NAVBAR */
+
+  .navbar {
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: auto;
+    width: 100%;
+    border-top: 0.1px solid var(--color-grey);
+    border-bottom: 0.1px solid var(--color-grey);
+  }
+
+  .navbar > #menu_btn {
+    display: none;
+  }
+
+  .navlink {
+    transition: all ease 1s;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+
+  .navlink > ul {
+    display: flex;
+  }
+
+  .navlink > ul > li {
+    margin-right: 2rem;
+    display: flex;
+  }
+
+  .navlink > ul > li > button {
+    margin-right: 1rem;
+  }
+
+  .navlink > ul > li > a,
+  .navlink > ul > li > button {
+    color: white;
+    font-size: var(--size-xl);
+    transition: all ease 0.5s;
+  }
+
+  .navlink > ul > li > a:hover,
+  .navlink > ul > li > button:hover {
+    color: var(--color-secondary);
+  }
+
+  #sub_menu_link {
+    background-color: var(--color-grey);
+    position: absolute;
+    height: auto;
+    top: 2.5rem;
+    display: none;
+    width: auto;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+  }
+
+  #sub_menu_link > li {
+    margin-bottom: 1rem;
+  }
+
+  #sub_menu_link > li:nth-last-child(1) {
+    margin-bottom: 0rem;
+  }
+
+  #sub_menu_link > li > a {
+    font-size: var(--size-md);
+  }
+
+  #sociallink {
+    width: auto;
+    height: 100%;
+  }
+
+  #sociallink > a > i {
+    font-size: var(--size-3xl);
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1279px) {
+}

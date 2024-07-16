@@ -1,0 +1,229 @@
+
+@media screen and (max-width: 991px) {
+
+.testimonal {
+    width: 100%;
+    height: auto;
+    background-color: var(--color-primary);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.testimonal > .tag {
+    color: white;
+
+}
+
+.testimonal > h1 {
+    width: fit-content;
+    font-size: var(--size-5xl);
+    margin-bottom: 1rem;
+}
+
+.testimonal > p:nth-child(2) {
+    margin-bottom: 2rem;
+    font-size: var(--size-lg);
+}
+
+.slider {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    transition: all ease 0.8s;
+    margin-right: 2.5rem;
+    flex-shrink: 0;
+    padding: 2rem 2rem;
+    background-color: var(--color-light-primary);
+    width: 97%;
+    height: auto;
+}
+
+.profile_detail {
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profile_detail > #profile_pic {
+    margin-bottom: 1rem;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#profile_pic > img:nth-child(1) {
+    border-radius: 50%;
+}
+
+#profile_pic > img:nth-child(2) {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.2rem;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    border: 2px solid var(--color-primary);
+}
+
+.profile_detail > h1 {
+    font-size: var(--size-3xl);
+}
+
+.profile_detail > p {
+    color: var(--color-secondary);
+    letter-spacing: 1px;
+}
+
+.comment > p {
+    color: rgba(255, 255, 255, 0.559);
+    font-size: var(--size-xl);
+    font-style:italic;
+    /* font-family: "Cormorant Infant", serif; */
+}
+
+.testimonal > #navigate_btn {
+    margin-top: 1.5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#navigate_btn > .dot {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.447);
+    border-radius: 50%;
+} 
+
+}
+@media screen and (max-width: 767px) {
+
+    .slide {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 555px) {}
+@media screen and (max-width: 455px) {}
+@media screen and (min-width: 992px) {
+
+
+    .testimonal {
+        width: 100%;
+        height: auto;
+        background-color: var(--color-primary);
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .testimonal > .tag {
+        color: white;
+    }
+    
+    .testimonal > h1 {
+        width: fit-content;
+        font-size: var(--size-5xl);
+        margin-bottom: 1rem;
+    }
+    
+    .testimonal > p:nth-child(2) {
+        margin-bottom: 2rem;
+        font-size: var(--size-lg);
+    }
+    
+    .slider {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: auto;
+        height: auto;
+        display: flex;
+    }
+    
+    .slide {
+        transition: all ease 0.8s;
+        margin-right: 2.5rem;
+        flex-shrink: 0;
+        padding: 2rem 2rem;
+        background-color: var(--color-light-primary);
+        width: 35%;
+        height: auto;
+    }
+    
+    .profile_detail {
+        border-bottom: 1px solid white;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .profile_detail > #profile_pic {
+        margin-bottom: 1rem;
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+    
+    #profile_pic > img:nth-child(1) {
+        border-radius: 50%;
+    }
+    
+    #profile_pic > img:nth-child(2) {
+        height: 1.5rem;
+        width: 1.5rem;
+        padding: 0.2rem;
+        background-color: var(--color-secondary);
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        border: 2px solid var(--color-primary);
+    }
+    
+    .profile_detail > h1 {
+        font-size: var(--size-3xl);
+    }
+    
+    .profile_detail > p {
+        color: var(--color-secondary);
+        letter-spacing: 1px;
+    }
+    
+    .comment > p {
+        color: rgba(255, 255, 255, 0.559);
+        font-size: var(--size-xl);
+        font-style:italic;
+        /* font-family: "Cormorant Infant", serif; */
+    }
+    
+    .testimonal > #navigate_btn {
+        margin-top: 1.5rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #navigate_btn > .dot {
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-right: 0.5rem;
+        background-color: rgba(255, 255, 255, 0.447);
+        border-radius: 50%;
+    } 
+    
+
+}
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1279px) {}

@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- STYLESHEETS -->
+
+    <link rel="stylesheet" href="/Styles/common_stylesheets/style.css" />
+    <link rel="stylesheet" href="/Styles/common_stylesheets/utility.css" />
+    <link rel="stylesheet" href="/Styles/common_stylesheets/header.css" />
+    <link rel="stylesheet" href="/Styles/home_page/hero_section.css" />
+    <link rel="stylesheet" href="/Styles/home_page/Restaurant_info.css" />
+    <link rel="stylesheet" href="/Styles/home_page/journey.css" />
+    <link rel="stylesheet" href="/Styles/home_page/dishes_menu.css" />
+    <link rel="stylesheet" href="/Styles/home_page/testimonal.css" />
+    <link rel="stylesheet" href="/Styles/home_page/fixed_background.css" />
+    <link rel="stylesheet" href="/Styles/home_page/offers.css" />
+    <link rel="stylesheet" href="/Styles/home_page/popular_dishe.css" />
+    <link rel="stylesheet" href="/Styles/home_page/service_section.css" />
+    <link rel="stylesheet" href="/Styles/home_page/blog_section.css" />
+    <link rel="stylesheet" href="/Styles/home_page/reservation_section.css" />
+    <link rel="stylesheet" href="/Styles/common_stylesheets/footer.css" />
+
+    <!-- LOCOMOTIVE CSS -->
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> -->
+
+  </head>
+  <body id="main">
+    <!-- HEADER SECTION -->
+
+    <header class="header">
+      <div class="intro padding_UD padding_LR">
+        <div id="call_btn" class="btn">
+          <button><a href="">Call - 123 456 789</a></button>
+        </div>
+        <div id="logo">
+          <img src="/Assets/tasteat-brand-logo.svg" alt="" />
+        </div>
+        <div id="reservation_btn" class="btn">
+          <button><a href="">Reservation</a></button>
+        </div>
+      </div>
+      <nav class="navbar padding_LR">
+        <div id="menu_btn">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="navlink">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="">Our Menu</a></li>
+            <li>
+              <button id="more_pages">
+                Pages &nbsp<i class="bx bx-chevron-down"></i>
+              </button>
+              <ul id="sub_menu_link">
+                <li><a href="">Book A Table</a></li>
+                <li><a href="">Our Chef</a></li>
+                <li><a href="">Chef Single</a></li>
+                <li><a href="">Recipe</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Gallery Single</a></li>
+                <li><a href="">Order Via App</a></li>
+                <li><a href="">Order Via App Single</a></li>
+                <li><a href="">FAQ</a></li>
+              </ul>
+            </li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div id="sociallink">
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-pinterest"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN  SECTION -->
+
+    <main>
+      <section class="hero padding_LR">
+        <div id="left_hero_div">
+          <h1>Welcome to<br/>Restaurant</h1>
+          <p>
+            The People, food and the prime locations make the perfect place good
+            friends & family to come together and have great time.
+          </p>
+          <div class="btn" id="hero_btn">
+            <button><a href="">View Menu</a></button>
+          </div>
+        </div>
+        <div id="right_hero_div">
+          <div id="hero_img">
+            <img src="/Assets/hero-image.jpg" alt="" />
+          </div>
+          <img
+            id="gear"
+            src="/Assets/hero-wheel-pattern.svg"
+            alt="Rotatin_Gear"
+          />
+        </div>
+      </section>
+      <section class="restaurant_info padding_LR padding_UD">
+        <div class="restaurant_infos" id="address">
+          <div class="icon">
+            <img src="/Assets/detail-icon-1.svg" alt="" />
+          </div>
+          <div id="address_info">
+            <h1>Locate Us</h1>
+            <p>Riverside 25, San Diego, California</p>
+          </div>
+        </div>
+        <div class="restaurant_infos" id="time">
+          <div class="icon">
+            <img src="/Assets/detail-icon-2.svg" alt="" />
+          </div>
+          <div id="time_info">
+            <h1>Open Hours</h1>
+            <p>Mon To Fri 9:00 AM - 9:00 PM</p>
+          </div>
+        </div>
+        <div class="restaurant_infos" id="mail">
+          <div class="icon">
+            <img src="/Assets/detail-icon-3.svg" alt="" />
+          </div>
+          <div id="mail_info">
+            <h1>Reservation</h1>
+            <p>Restaurantate@gmail.com</p>
+          </div>
+        </div>
+      </section>
+      <section class="journey padding_LR padding_UD">
+        <div class="journey_left_div">
+          <img src="/Assets/about-story-image.jpg" alt="" />
+        </div>
+        <div class="journey_right_div">
+          <div id="journey_upper_right_div">
+            <h1>The Delicious Story</h1>
+            <p>
+              The People, food and the prime locations make the perfect place
+              good friends & family to come together and have great time.
+            </p>
+          </div>
+          <div id="journey_med_right_div">
+            <div class="med_divs" id="med_left_div">
+              <h1>2018</h1>
+              <p>Plan for this Restaurant to deliever healthy food.</p>
+            </div>
+            <div class="med_divs" id="med_right_div">
+              <h1>2022</h1>
+              <p>Happily in the fourth year by fulfill the motto.</p>
+            </div>
+          </div>
+          <div class="journey_bottom_right_div" id="journey_bottom_right_div">
+            <p>JOSEFINE</p>
+            <img src="/Assets/josefin-sign.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="dishes_menu" class="dishes_menu padding_LR padding_UD">
+        <div class="dishes_menu_left_div">
+          <p class="tag">MENU</p>
+          <h1>Try Our Special Dishes</h1>
+          <p>
+            Every time you perfectly dine with us, it should happy for great
+            inspired food in an environment designed with individual touches
+            unique to the local area.
+          </p>
+          <div id="dishes_menu_img">
+            <img src="/Assets/home-menu-image.jpg" alt="" />
+          </div>
+          <button class="more_dishes btn"><a href="">See all dishes</a></button>
+        </div>
+        <div class="dishes_menu_right_div">
+          <div class="dishes">
+            <h1>Starter</h1>
+
+            <div id="dish_no_1" class="starter">
+              <div id="starter_dish_icon">
+                <img src="/Assets/menu-item-image-1.jpg" alt="" />
+              </div>
+              <div id="starter_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Raw Scallpos from Erquy</h1>
+                  <p>Suck the scallpo to that used for oysters</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$40</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_2" class="starter">
+              <div id="starter_dish_icon">
+                <img src="/Assets/menu-item-image-2.jpg" alt="" />
+              </div>
+              <div id="starter_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Spring Roll</h1>
+                  <p>Add oil to a hot pan spring onion whites</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$20</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_3" class="starter">
+              <div id="starter_dish_icon">
+                <img src="/Assets/menu-item-image-3.jpg" alt="" />
+              </div>
+              <div id="starter_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>French Onion Soup</h1>
+                  <p>White flour, apple cider vinegar, bread</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$25</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_4" class="starter">
+              <div id="starter_dish_icon">
+                <img src="/Assets/menu-item-image-4.jpg" alt="" />
+              </div>
+              <div id="starter_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Tomato Bruschetta</h1>
+                  <p>bread, olive oil, garlic, black pepper</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$30</strong>
+                </div>
+              </div>
+            </div>
+
+            <h1>Main Dish</h1>
+
+            <div id="dish_no_5" class="main_dish">
+              <div id="main_dish_icon">
+                <img src="/Assets/menu-item-image-5.jpg" alt="" />
+              </div>
+              <div id="main_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Grilled Salmon with Drill Sauce</h1>
+                  <p>Brown sugar, salmon fillet, Dijon mustard</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$40</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_6" class="main_dish">
+              <div id="main_dish_icon">
+                <img src="/Assets/menu-item-image-6.jpg" alt="" />
+              </div>
+              <div id="main_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Roast Beef with Vegtable</h1>
+                  <p>Green beans, rib eye, olive oil, beef</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$20</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_7" class="main_dish">
+              <div id="main_dish_icon">
+                <img src="/Assets/menu-item-image-7.jpg" alt="" />
+              </div>
+              <div id="main_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Marrkesh Vegetetarian Curruy</h1>
+                  <p>Sweet potato, eggplant, garbanzo beans</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$25</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_8" class="main_dish">
+              <div id="main_dish_icon">
+                <img src="/Assets/menu-item-image-8.jpg" alt="" />
+              </div>
+              <div id="main_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Spicy Vegan Potato Curruy</h1>
+                  <p>Cocnut milk, beans, potatoes, curruy poweder</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$35</strong>
+                </div>
+              </div>
+            </div>
+
+            <h1>Desert</h1>
+
+            <div id="dish_no_9" class="desert_dish">
+              <div id="desert_dish_icon">
+                <img src="/Assets/menu-item-image-9.jpg" alt="" />
+              </div>
+              <div id="desert_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Apple Pie with Cream</h1>
+                  <p>Whipping cream, egg white, cinnamon</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$15</strong>
+                </div>
+              </div>
+            </div>
+
+            <div id="dish_no_10" class="desert_dish">
+              <div id="desert_dish_icon">
+                <img src="/Assets/menu-item-image-10.jpg" alt="" />
+              </div>
+              <div id="desert_dish_detail">
+                <div id="dish_detail_left_div">
+                  <h1>Lemon Meringue Pie</h1>
+                  <p>Frozen pie crust, meringue, lemon</p>
+                </div>
+                <div id="dish_detail_right_div">
+                  <strong>$30</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonal padding_LR padding_UD">
+        <p class="tag">TESTIMONIAL</p>
+        <h1>Our Client Say</h1>
+        <p>
+          We love to hear from cutomers, so please leave a comment or say hello
+          in an email.
+        </p>
+
+        <div class="slider">
+          <div class="slide">
+            <div class="profile_detail">
+              <div id="profile_pic">
+                <img src="/Assets/client-say-image-1.jpg" alt="" />
+                <img src="/Assets/client-say-block-quote.svg" alt="" />
+              </div>
+              <h1>Natasha D</h1>
+              <p>Newyork</p>
+            </div>
+            <div class="comment">
+              <p>
+                "They know for its fabulous taste and food. Anywhere you go your
+                hanger is satisfied. The best chicken & burgers those are
+                yummy".
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="profile_detail">
+              <div id="profile_pic">
+                <img src="/Assets/client-say-image-1.jpg" alt="" />
+                <img src="/Assets/client-say-block-quote.svg" alt="" />
+              </div>
+              <h1>Natasha D</h1>
+              <p>Newyork</p>
+            </div>
+            <div class="comment">
+              <p>
+                "They know for its fabulous taste and food. Anywhere you go your
+                hanger is satisfied. The best chicken & burgers those are
+                yummy".
+              </p>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="profile_detail">
+              <div id="profile_pic">
+                <img src="/Assets/client-say-image-1.jpg" alt="" />
+                <img src="/Assets/client-say-block-quote.svg" alt="" />
+              </div>
+              <h1>Natasha D</h1>
+              <p>Newyork</p>
+            </div>
+            <div class="comment">
+              <p>
+                "They know for its fabulous taste and food. Anywhere you go your
+                hanger is satisfied. The best chicken & burgers those are
+                yummy".
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="navigate_btn">
+          <div class="dot" id="dot1"></div>
+          <div class="dot" id="dot2"></div>
+          <div class="dot" id="dot3"></div>
+          <div class="dot" id="dot4"></div>
+          <div class="dot" id="dot5"></div>
+        </div>
+      </section>
+      <section class="fixed_background"></section>
+      <section class="offer padding_LR padding_UD">
+        <p class="tag">OFFERS</p>
+        <h1>Our Offer Dishes</h1>
+        <p>
+          Our chefs melt-in-your-mouth dishes that`ll satiate even the fussiest
+          eaters now the dishes are in offers use it based on hanger.
+        </p>
+
+        <div class="offers padding_UD">
+          <div class="offer_card" id="offer_1">
+            <div class="offer_detail" id="offer_detail_1">
+              <div class="offer_tag">
+                <div class="offer_tag_descrip" id="offer_tag_descrip_1">
+                  <p>O N L Y</p>
+                  <h1>$10</h1>
+                </div>
+                <img src="/Assets/offer-bg-1.svg" alt="" />
+              </div>
+              <div id="offer_descrp">
+                <p class="tag">50% OFFER &nbsp GOING</p>
+              </div>
+              <div id="offered_meal_name">
+                <h1>Chicken Burger</h1>
+              </div>
+              <div id="offered_meal_detail">
+                <p>Chicken burger with the tasty topping and leaves.</p>
+              </div>
+            </div>
+
+            <div id="offered_meal_image_1">
+              <img src="/Assets/special-dish-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="offer_card" id="offer_2">
+            <div class="offer_detail" id="offer_detail_2">
+              <div class="offer_tag">
+                <div class="offer_tag_descrip" id="offer_tag_descrip_2">
+                  <p>O N L Y</p>
+                  <h1>$9</h1>
+                </div>
+                <img src="/Assets/offer-bg-2.svg" alt="" />
+              </div>
+              <div id="offer_descrp">
+                <p class="tag">50% OFFER &nbsp GOING</p>
+              </div>
+              <div id="offered_meal_name">
+                <h1>Chicken Burger</h1>
+              </div>
+              <div id="offered_meal_detail">
+                <p>Chicken burger with the tasty topping and leaves.</p>
+              </div>
+            </div>
+
+            <div id="offered_meal_image_2">
+              <img src="/Assets/special-dish-2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular_dishes_section padding_LR padding_UD">
+        <p class="tag">MENU</p>
+        <h1>Popular Dishes</h1>
+        <p>
+          There is a game between the waiters in restaurant to see who serves
+          the food to each table fastest. That led to attempting the Guinness
+          Record.
+        </p>
+
+        <div class="popular_dishes">
+          <div class="popular_dishe" id="popluar_dishe_1">
+            <img src="/Assets/popular-dish-image-1.jpg" alt="" />
+            <div class="popular_dishe_detail">
+              <div class="popular_dishe_title">
+                <h1>Chicken Manjoori</h1>
+                <h1>$15</h1>
+              </div>
+
+              <p>
+                Dish relished by all age groups as a starter dish at parties.
+              </p>
+            </div>
+          </div>
+
+          <div class="popular_dishe" id="popluar_dishe_2">
+            <img src="/Assets/popular-dish-image-2.jpg" alt="" />
+            <div class="popular_dishe_detail">
+              <div class="popular_dishe_title">
+                <h1>Hotdog</h1>
+                <h1>$10</h1>
+              </div>
+
+              <p>
+                Grilled susage served in the slit of a partially sliced bun.
+              </p>
+            </div>
+          </div>
+
+          <div class="popular_dishe" id="popluar_dishe_3">
+            <img src="/Assets/popular-dish-image-3.jpg" alt="" />
+            <div class="popular_dishe_detail">
+              <div class="popular_dishe_title">
+                <h1>Fresh Salmon</h1>
+                <h1>$5</h1>
+              </div>
+
+              <p>
+                Beat the health blues with our super immune Blue Juice Recipe.
+              </p>
+            </div>
+          </div>
+
+          <div class="popular_dishe" id="popluar_dishe_4">
+            <img src="/Assets/popular-dish-image-4.jpg" alt="" />
+            <div class="popular_dishe_detail">
+              <div class="popular_dishe_title">
+                <h1>Veg Burger</h1>
+                <h1>$10</h1>
+              </div>
+
+              <p>Burgers may be made from ingredients like beans.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="moredishebtn" class="btn more_dishes_btn">
+          <button><a href="">See all dishes</a></button>
+        </div>
+      </section>
+      <section class="service_section padding_UD padding_LR">
+        <div class="services_left_div">
+          <div class="services_section_title">
+            <p class="tag">WHAT WE OFFER</p>
+            <h1>Our Great Services</h1>
+            <p>
+              The atmosphere set the stage. It's about more than just a dining
+              room away from your home. food takes the spotlight as guests.
+            </p>
+          </div>
+
+          <div class="services" id="service_1">
+            <img src="/Assets/service-icon-1.svg" alt="" />
+            <h1>Opened 24/7</h1>
+          </div>
+        </div>
+
+        <div class="services_right_div">
+          <div class="services" id="service_2">
+            <img src="/Assets/service-icon-2.svg" alt="" />
+            <h1>Special Menu</h1>
+          </div>
+
+          <div class="services" id="service_3">
+            <img src="/Assets/service-icon-3.svg" alt="" />
+            <h1>Home Delievery</h1>
+          </div>
+        </div>
+      </section>
+      <section class="blog padding_LR padding_UD">
+        <p class="tag">BLOG</p>
+        <h1>Be First Who Read News</h1>
+        <p>
+          Explore the latest stories about our dishes, offers, events and future
+          plans here.
+        </p>
+
+        <div class="news">
+          <div class="blog_post">
+            <div class="blog_post_upper_div" id="blog_post_upper_div_1">
+              <div class="btn blog_post_btn">
+                <button><a href="">View More</a></button>
+              </div>
+            </div>
+            <div id="blog_post_lower_div">
+              <p class="tag">DELICIOUS</p>
+              <p class="tag">MARCH 19, 2022</p>
+
+              <h1>The Legend Of US Cuisine: The Story Of Hungry Poeple</h1>
+
+              <p>
+                Capitalize on low-hanging fruit to identify a ballpark value
+                added matrix economically and the creative activity to beta test
+                override the food quality.
+              </p>
+            </div>
+          </div>
+
+          <div class="blog_post">
+            <div class="blog_post_upper_div" id="blog_post_upper_div_2"></div>
+            <div id="blog_post_lower_div">
+              <p class="tag">COOKING</p>
+              <p class="tag">MARCH 19, 2022</p>
+
+              <h1>The Most Popular Delicious Food Of Mediterranean Cuisine</h1>
+
+              <p>
+                Strategies on low-hanging fruit to identify a ballpark value
+                added matrix economically and the creative activity to beta test
+                override the food quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reservation padding_LR padding_UD">
+        <div class="form_card">
+          <p class="tag">RESERVATION</p>
+          <h1>Book Your Table</h1>
+
+          <div class="form">
+            <form action="">
+              <input id="text" type="text" placeholder="Name" />
+              <input id="email" type="email" placeholder="Email" />
+              <input id="number" type="number" placeholder="Persons" />
+              <input id="time" type="time" placeholder="Timing" />
+              <input id="date" type="date" placeholder="Date" />
+            </form>
+
+            <div class="reservation_btn btn">
+              <button><a href="">Book A Table</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer padding_LR padding_UD">
+
+      <div class="logo_links">
+        
+        <div id="hashtag">
+          <a href="">#TheTastEat</a>
+        </div>
+
+        <div id="logo">
+          <img src="/Assets/tasteat-brand-logo.svg" alt="" />
+        </div>
+
+        <div id="sociallink">
+          <a href=""><i class="bx bxl-instagram"></i></a>
+          <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-pinterest"></i></a>
+        </div>
+      </div>
+
+      <div class="info_div">
+
+        <div id="contact">
+          <p class="tag">CONTACT</p>
+          <p class="address">5 Rue Dalou, 75015 Paris</p>
+          <p class="cell_number">+123 456 789</p>
+          <p class="mail">josefin@gmail.com</p>
+        </div>
+
+        <div class="get_in_touch">
+          <p>Join our mailing list for updates,<br>Get news $ offers events.</p>
+
+          <div id="mail_bar">
+            <input type="email" placeholder="Email">
+            <button><a href="">Subscribe</a></button>
+          </div>
+
+        </div>
+
+        <div class="timing_info">
+          <p class="tag">WORKING HOURS</p>
+          <p><span>Mon-Fri: </span>7:00am - 6:00pm</p>
+          <p><span>Sat: </span>7:00am - 6:00pm</p>
+          <p><span>Sun: </span>7:00am - 6:00pm</p>
+        </div>
+
+
+      </div>
+
+      <div class="sponsors">
+        <h1>Created by <span>Muhammad Yasin</span></h1>
+      </div>
+
+    </footer>
+
+
+    
+    
+     <!-- gsap main cdn -->
+     <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+     integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   ></script>
+
+   <!-- gsap scroll trigger -->
+   <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+     integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   ></script>
+
+   <!-- LOCOMOTIVE JS CDN -->
+
+   <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
+
+    <script src="/main.js"></script>
+  </body>
+</html>
